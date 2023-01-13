@@ -35,7 +35,7 @@
   position: absolute; /* Para ignorar o after e alinhar ao centro*/
 }
 
-.header-menu a:hover:after {
+.header-menu a:hover::after {
   width: 100%;
 }
 
