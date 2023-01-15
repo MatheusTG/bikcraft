@@ -1,0 +1,85 @@
+.seguros-bg {
+  background-color: var(--cor-11);
+}
+
+.seguros {
+  padding: 60px 20px;
+}
+
+.seguros h2 {
+  margin-bottom: 100px;
+}
+
+.planos {
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 40px;
+}
+
+.planos-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  background-color: var(--cor-12);
+  padding: 32px 32px 32px 60px;
+  border-radius: 4px;
+}
+
+.planos-item h3 {
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.planos-item ul {
+  margin-bottom: 32px;
+  grid-column: 1/-1;
+}
+
+.planos-item li + li{
+  padding-top: 16px;
+  position: relative;
+}
+
+.planos-item li {
+  position: relative;
+}
+
+.planos-item li::before {
+  content: "";
+  display: block;
+  height: 9px;
+  width: 13px;
+  background-image: url("../../img/icones/lista.svg");
+  position: absolute;
+  left: -20px;
+  bottom: 8px;
+}
+
+.planos-item a {
+  grid-column: 1/-1;
+  margin-bottom: 32px;
+  max-width: max-content;
+}
+
+.botao-secundario {
+  background: var(--cor-10);
+  color: var(--cor-02);
+}
+
+.botao-secundario:hover {
+  background: var(--cor-09);
+}
+
+.planos-item span {
+  grid-row: 1;
+  grid-column: 2;
+  display: block;
+  text-align: right;
+  white-space: nowrap;
+}
+
+@media (max-width: 800px){
+  .planos {
+    grid-template-columns: 1fr;
+  }
+}

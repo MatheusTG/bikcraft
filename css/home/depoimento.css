@@ -1,5 +1,4 @@
 .depoimento {
-  display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: var(--cor-p1);
   overflow: hidden;

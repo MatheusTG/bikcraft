@@ -9,7 +9,6 @@
 
 .parceiros-lista {
   max-width: 1400px;
-  display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
 }
