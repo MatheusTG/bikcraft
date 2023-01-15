@@ -5,7 +5,6 @@
 
 body {
   color: var(--cor-11);
-  height: 550vh;
 }
 
 a {
@@ -31,11 +30,11 @@ img[src$=".jpg"] {
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--cor-11);
+  background: var(--cor-10);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--cor-05);
+  background: var(--cor-05);
   border-radius: 10px;
   height: 200px;
 }
