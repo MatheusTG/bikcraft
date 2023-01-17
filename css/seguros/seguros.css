@@ -80,3 +80,7 @@
     grid-template-columns: 1fr;
   }
 }
+
+#seguros .seguros {
+  padding-top: initial;
+}
