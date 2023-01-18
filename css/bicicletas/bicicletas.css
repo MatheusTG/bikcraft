@@ -1,4 +1,4 @@
-.bicicleta {
+.bicicleta-item {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
@@ -93,7 +93,7 @@
 }
 
 @media (max-width: 900px) {
-  .bicicleta {
+  .bicicleta-item {
     grid-template-columns: 1fr;
     gap: 20px;
   }
@@ -106,7 +106,7 @@
 }
 
 @media (max-width: 600px) {
-  .bicicleta {
+  .bicicleta-item {
     padding: 40px 20px;
   }
 

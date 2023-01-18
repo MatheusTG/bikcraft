@@ -1,0 +1,118 @@
+.bicicleta-principal h2 {
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.015em;
+}
+
+.bicicleta-principal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.bicicleta-imagens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-content: start;
+}
+
+.bicicleta-imagens img {
+  min-width: 150px;
+  flex: 1;
+}
+
+.bicicleta-imagens img:first-child {
+  min-width: 100%;
+}
+
+.bicicleta-conteudo > p {
+  margin-bottom: 32px;
+}
+
+.bicicleta-comprar {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  justify-items: start;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 40px;
+}
+
+.bicicleta-comprar a {
+  grid-row: 1/3;
+}
+
+.bicicleta-comprar span {
+  display: flex;
+  gap: 8px;
+  background: var(--cor-12);
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+.bicicleta-informacoes ul, 
+.bicicleta-ficha {
+  padding: 32px;
+  background: var(--cor-12);
+  border-radius: 4px;
+}
+
+.bicicleta-informacoes ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
+  gap: 32px;
+  margin-bottom: 40px;
+}
+
+.bicicleta-informacoes img {
+  width: 24px;
+}
+
+.bicicleta-informacoes h3 {
+  margin-bottom: 8px;
+}
+
+.bicicleta-ficha li {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0;
+}
+
+.bicicleta-ficha li {
+  border-top: 1px solid var(--cor-11);
+}
+
+.bicicleta-ficha li:first-child {
+  border-top: none;
+}
+
+.bicicleta-ficha span {
+  color: var(--cor-06);
+}
+
+@media (max-width: 800px) {
+  .bicicleta-principal {
+    grid-template-columns: 1fr;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .bicicleta-imagens {
+    grid-row: last;
+  }
+}
+
+@media (max-width: 400px) {
+  .bicicleta-comprar {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Alterando alguns valores da lista de bicicletas */
+#bicicleta .bicicletas-lista {
+  max-width: 1200px;
+  padding-top: 60px;
+  padding-bottom: 120px;
+}

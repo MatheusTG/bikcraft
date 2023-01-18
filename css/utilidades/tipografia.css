@@ -60,12 +60,16 @@ font-b --> font-weight maior que a fonte normal
   font: 600 2rem/1.25 "Poppins", Arial, Helvetica, sans-serif;
 }
 
+.font-2-xl {
+  font: 500 2rem/1.25 "Roboto", Arial, Helvetica, sans-serif;
+}
+
 .font-1-xxl {
   font: 600 4rem/1.125 "Poppins", Arial, Helvetica, sans-serif;
 }
 
 @media (max-width: 1200px) {
-  .fot-1-xxl {
+  .font-1-xxl {
     font-size: 3rem;
   }
   .font-2-l, 
