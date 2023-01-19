@@ -108,6 +108,10 @@
   .bicicleta-comprar {
     grid-template-columns: 1fr;
   }
+
+  .bicicleta-principal {
+    padding: 16px 20px 0 20px;
+  }
 }
 
 /* Alterando alguns valores da lista de bicicletas */

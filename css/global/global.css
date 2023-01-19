@@ -36,5 +36,4 @@ img[src$=".jpg"] {
 ::-webkit-scrollbar-thumb {
   background: var(--cor-05);
   border-radius: 10px;
-  height: 200px;
 }

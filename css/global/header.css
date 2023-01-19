@@ -1,6 +1,5 @@
 .header-bg {
   background-color: var(--cor-12);
-  padding: 20px 0;
 }
 
 .header {
@@ -9,7 +8,7 @@
   gap: 20px;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 20px !important;
 }
 
 .header-menu {
