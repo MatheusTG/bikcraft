@@ -58,12 +58,12 @@
   max-width: max-content;
 }
 
-.botao-secundario {
+.secundario {
   background: var(--cor-10);
   color: var(--cor-02);
 }
 
-.botao-secundario:hover {
+.secundario:hover {
   background: var(--cor-09);
 }
 

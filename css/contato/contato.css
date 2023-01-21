@@ -4,7 +4,6 @@
 
 .contato {
   display: grid;
-  grid-template-columns: 5fr 7fr;
 }
 
 .contato-dados,
@@ -71,6 +70,10 @@
   margin-bottom: 12px;
 }
 
+.solicitar-orcamento {
+  max-width: max-content;
+}
+
 @media (max-width: 800px) {
   .contato {
     grid-template-columns: 1fr;
@@ -133,10 +136,6 @@
   border-color: var(--cor-p1);
   background: var(--cor-00);
   box-shadow: 0 0 0 2px #fea;
-}
-
-button {
-  max-width: max-content;
 }
 
 @media (max-width:600px) {
