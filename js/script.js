@@ -2,9 +2,13 @@
 const links = document.querySelectorAll(".header-menu a");
 
 function ativarLink(link) {
+  console.log(link.href, window.location.href)
+  console.log(link.origin,  window.location.href)
+  console.log('=====')
   if (
     link.href.includes(window.location.href) &&
-    link.origin + "/" !== window.location.href
+    link.origin + "/" !== window.location.href && // development
+    link.origin + "/bikcraft/" !== window.location.href // production (GitHub)
   ) {
     link.classList.add("ativo");
   }
